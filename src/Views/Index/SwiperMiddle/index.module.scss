@@ -1,0 +1,29 @@
+.swipermiddle {
+  overflow: hidden;
+  .slide {
+    height: 1.05rem;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    .title {
+      position: absolute;
+      top: 0.4rem;
+      left: 0;
+      color: #fff;
+      width: 100%;
+      text-align: center;
+      font-size: 0.18rem;
+    }
+    .keyword {
+      position: absolute;
+      top: 0.65rem;
+      left: 0;
+      color: #fff;
+      width: 100%;
+      text-align: center;
+      font-size: 0.12rem;
+    }
+  }
+}

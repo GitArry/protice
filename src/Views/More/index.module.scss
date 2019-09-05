@@ -1,0 +1,24 @@
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    img:nth-child(1){
+        height: .4rem;
+        margin: .05rem;
+    }
+    .logo2{
+        height: .2rem;
+        margin: .15rem;
+    }
+    input{
+        width: 2.1rem;
+        height: .33rem;
+        margin-top: .09rem;
+        border-radius: .16rem;
+        border:#ccc solid 1px;
+        outline: none;
+        text-indent: .2rem
+
+
+    }
+}

@@ -1,0 +1,92 @@
+.talk {
+  box-sizing: border-box;
+  background: #fafafa;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  header {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #ff5a5f;
+    color: #fff;
+    padding: 0 0.2rem;
+    font-size: 0.16rem;
+    z-index: 2;
+  }
+  main {
+    padding: 0.5rem 0.15rem;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+    .container {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+      background: #fff;
+      position: relative;
+    }
+    .text {
+      margin-top: 0.1rem;
+      padding: 0.2rem 0.1rem;
+      box-shadow: 0 0 10px #eee;
+      overflow-wrap: break-word;
+      margin-bottom: 0.1rem;
+    }
+    .youhead {
+      position: absolute;
+      height: 0.45rem;
+      width: 0.45rem;
+      top: 0.05rem;
+      left: -0.5rem;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        height: 100%;
+        padding-left: 0.05rem
+      }
+    }
+    .myhead {
+      position: absolute;
+      height: 0.45rem;
+      width: 0.45rem;
+      top: 0.05rem;
+      right: -0.5rem;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        height: 100%;
+        padding-left: 0.05rem
+      }
+    }
+  }
+  footer {
+    box-shadow: 0 -1px 0.15rem #eee;
+    height: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    input {
+      border: none;
+      outline: none;
+      height: 100%;
+      width: 2.8rem;
+      padding-left: 0.3rem;
+      font-size: 0.14rem;
+    }
+    .right {
+      text-align: center;
+      width: 0.65rem;
+      height: 100%;
+      text-align: center;
+      line-height: 0.5rem;
+      background: #eee;
+    }
+  }
+}

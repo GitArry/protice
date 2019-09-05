@@ -1,0 +1,12 @@
+.navs {
+  height: 0.68rem;
+  display: flex;
+  li {
+    flex: 1;
+    text-align: center;
+    div {
+      font-size: 0.14rem;
+      color: #313131;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.houses {
+  .slide {
+    height: 0.85rem;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .cn {
+      position: absolute;
+      font-size: 0.18rem;
+      top: 0.15rem;
+      left: 0.1rem;
+      color: #fff;
+    }
+    .en {
+      position: absolute;
+      font-size: 0.14rem;
+      top: 0.4rem;
+      left: 0.1rem;
+      color: #fff;
+    }
+  }
+}

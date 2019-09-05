@@ -1,0 +1,51 @@
+.header{
+    z-index: 2;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    line-height: 0.5rem;
+    border-bottom: 0.01rem solid #d3d3d3;
+    padding-bottom: 0.01rem;
+    .hasT{
+        height: 0.45rem;
+        position: relative;
+        width: 100%;
+        -webkit-box-align: center;
+        .user{
+            width: 0.28rem;
+            height: 0.2rem;
+            margin-left: 0.08rem;
+            float: left;
+            span{
+                font-size: 0.2rem;
+                color: #9e9e9e;
+                padding: 0 0.07rem 0 0;
+            }
+        }
+        .selectType{
+            font-size: 0.14rem;
+            text-align: center;
+        }
+    }
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    img{
+        width: 100%;
+        height:1.5rem;
+        display: block;
+        background: none;
+    }
+    p{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 40%;
+        font-size: 0.24rem;
+        color: #fff;
+    }
+}

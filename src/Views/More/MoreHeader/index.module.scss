@@ -1,0 +1,22 @@
+.newstitle{
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid #e8e8e8;
+    display: -ms-flexbox;
+    display: flex;
+    span{
+        flex: 1;
+    font-size: 16px;
+    color: #626262;
+    text-align: center;
+    padding-top: 16px;
+    line-height: 17px;
+    }
+   
+}
+.active{
+    border-bottom: 2px solid #ff5a5f;
+    color: #ff5a5f;
+}
+
+  

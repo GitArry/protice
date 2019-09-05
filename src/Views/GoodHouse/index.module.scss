@@ -1,0 +1,30 @@
+.goodhouse {
+  nav {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 0.2rem;
+    img {
+      width: 100%;
+    }
+    ul {
+      width: 100%;
+      box-sizing: border-box;
+      background: #fff;
+      z-index: 2;
+      padding: 0 0.2rem;
+      height: 0.44rem;
+      line-height: 0.44rem;
+      display: flex;
+      justify-content: space-between;
+      li {
+        text-align: center;
+        width: fit-content;
+        border-bottom: 3px solid #fff;
+      }
+      li.clicked {
+        border-color: #ff5a5f;
+        color: #ff5a5f;
+      }
+    }
+  }
+}

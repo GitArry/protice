@@ -1,0 +1,59 @@
+.searchcity {
+  header {
+    height: 0.5rem;
+    background: #fff;
+    line-height: 0.5rem;
+    font-size: 0.16rem;
+    padding: 0 0.2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    .headerL {
+      font-size: 0.2rem;
+      transform: translateY(0.03rem)
+    }
+    .headerM {
+      padding-left: 0.1rem;
+      input {
+        outline: none;
+        border: none;
+        width: 2.5rem;
+        height: 100%;
+        font-size: 0.16rem;
+      }
+    }
+    .headerR {
+      color: #666;
+    }
+  }
+  main {
+    padding-top: 0.5rem;
+    .hot {
+      height: 0.3rem;
+      color: #999;
+      font-size: 0.12rem;
+      line-height: 0.3rem;
+      padding-left: 0.2rem;
+      background: #f0f0f0;
+    }
+    .list {
+      margin-left: 0.2rem;
+      li {
+        padding: 0.2rem 0;
+        background: #fff;
+        border-bottom: 1px solid #e8e8e8;
+        .cn {
+          font-size: 0.16rem;
+          color: #313131;
+        }
+        .en {
+          color: #999;
+          font-size: 0.14rem;
+
+        }
+      }
+    }
+  }
+}
